@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  reactStrictMode: true,
+  transpilePackages: ["@web3-name-sdk/core", "@web3-name-sdk/register"],
+  images: {
+    domains: ["images.unsplash.com"],
+  },
+}
 
-export default nextConfig;
+export default nextConfig
