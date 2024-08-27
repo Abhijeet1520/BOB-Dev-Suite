@@ -11,11 +11,13 @@ import Storages from "@/components/demo/Storages";
 import Image from "next/image";
 import Showcasecover from "@/components/demo/Showcasecover";
 import AccountAbstraction from "@/components/demo/AccountAbstraction";
+import BTCConnect from "@/components/demo/BTCConnect";
 
 const tabs = [
   { name: "Introduction", component: <Showcasecover />},
   { name: "Account Abstraction", component: <AccountAbstraction />},
   { name: "Wallet Connection", component: <WalletConnection /> },
+  { name : "BTC Connect" , component : <BTCConnect /> }
   { name: "Contract Interaction", component: <ContractInteraction /> },
   { name: "User Authentication", component: <UserAuthentication /> },
   { name: "Store on BNB GreenField", component: <Storages /> },
